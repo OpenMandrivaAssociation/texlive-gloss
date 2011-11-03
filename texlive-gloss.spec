@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/gloss
+# catalog-date 2006-12-11 14:57:52 +0100
+# catalog-license lppl
+# catalog-version 1.5.2
 Name:		texlive-gloss
 Version:	1.5.2
 Release:	1
@@ -43,6 +49,7 @@ A glossary package using BibTeX with \cite replaced by \gloss.
 %doc %{_texmfdistdir}/doc/latex/gloss/gloss.pdf
 %doc %{_texmfdistdir}/doc/latex/gloss/gloss.tex
 %doc %{_texmfdistdir}/doc/latex/gloss/sample.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ A glossary package using BibTeX with \cite replaced by \gloss.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
