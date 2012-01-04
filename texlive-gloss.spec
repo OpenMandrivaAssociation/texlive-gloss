@@ -6,7 +6,7 @@
 # catalog-version 1.5.2
 Name:		texlive-gloss
 Version:	1.5.2
-Release:	1
+Release:	2
 Summary:	Create glossaries using BibTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gloss
