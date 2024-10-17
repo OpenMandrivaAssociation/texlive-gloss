@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Create glossaries using BibTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gloss
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/gloss
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gloss.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gloss.doc.r%{version}.tar.xz
